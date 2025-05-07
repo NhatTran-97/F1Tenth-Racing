@@ -1,0 +1,3 @@
+[submodule "f1tenth_drivers/bno055"]
+	path = f1tenth_drivers/bno055
+	url = https://github.com/flynneva/bno055.git
