@@ -1,0 +1,8 @@
+<library path="waypoint_panel">
+    <class name="waypoint" type="f1tenth_waypoint_follower::WaypointPanel" base_class_type="rviz_common::Panel">
+      <description>
+        A panel to capture waypoints and save them to a file.
+      </description>
+    </class>
+</library>
+  

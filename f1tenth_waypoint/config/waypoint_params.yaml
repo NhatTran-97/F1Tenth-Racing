@@ -1,0 +1,9 @@
+
+waypoint_generator_node:
+  ros__parameters:
+    waypoint_options: "clicked_waypoint"  # => Select: clicked_waypoint or odom_waypoint
+    odom_topic: "/odom"
+    clicked_topic: "/clicked_point"
+    odom_min_distance: 0.01
+    # path_to_csvFile: "/fablab_01/f1_ws/src/f1tenth_system/f1tenth_waypoint/racelines"
+    csvFile_name: "f1tenth_waypoint_path.csv"
