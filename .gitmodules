@@ -10,3 +10,6 @@
 [submodule "f1tenth_drivers/urg_node2"]
 	path = f1tenth_drivers/urg_node2
 	url = https://github.com/ros-drivers/urg_node.git
+[submodule "f1tenth_system/particle_filter"]
+	path = f1tenth_system/particle_filter
+	url = https://github.com/f1tenth/particle_filter.git
