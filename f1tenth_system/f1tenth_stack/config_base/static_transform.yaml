@@ -1,0 +1,10 @@
+static_tf_node:
+  ros__parameters:
+    base_link: base_link
+    camera_link: camera_link
+    laser_link: laser_link
+    imu_link: imu_link
+
+    camera_baselink_poses: [0.32, 0.0, 0.05, 0.0, 0.0, 0.0, 1.0]
+    imu_baselink_poses: [0.32, 0.0, 0.05, 0.0, 0.0, 0.0, 1.0]
+    lidar_baselink_poses: [0.32, 0.0, 0.05, 0.0, 0.0, 0.0, 1.0]

@@ -1,0 +1,2 @@
+geometry_msgs/Point object_point
+string class_name

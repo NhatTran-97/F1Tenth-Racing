@@ -1,0 +1,11 @@
+int32[] costmap_ros # Costmap data (flattened array)
+int32 width # Width of the costmap
+int32 height # Height of the costmap
+int32 start # Start index (1D index in the costmap array)
+int32 goal  # Goal index (1D index in the costmap array)
+float32 resolution 
+float32[] origin  
+---
+
+# Response
+int32[] plan    # Resulting path as a sequence of indices

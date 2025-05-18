@@ -1,0 +1,7 @@
+ackermann_mux:
+  ros__parameters:
+    locks:
+      safety:
+        topic: /emergency_breaking
+        timeout: 0.0
+        priority: 255
