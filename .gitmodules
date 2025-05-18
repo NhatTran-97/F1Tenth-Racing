@@ -4,3 +4,9 @@
 [submodule "f1tenth_drivers/bno055"]
 	path = f1tenth_drivers/bno055
 	url = https://github.com/flynneva/bno055.git
+[submodule "f1tenth_drivers/realsense-ros"]
+	path = f1tenth_drivers/realsense-ros
+	url = https://github.com/IntelRealSense/realsense-ros.git
+[submodule "f1tenth_drivers/urg_node2"]
+	path = f1tenth_drivers/urg_node2
+	url = https://github.com/ros-drivers/urg_node.git
