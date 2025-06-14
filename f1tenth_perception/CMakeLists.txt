@@ -27,6 +27,8 @@ find_package(rclpy REQUIRED)
 
 set(f1tenth_lidar_perception_dir "${CMAKE_CURRENT_SOURCE_DIR}/f1tenth_lidar_perception")
 
+set(f1tenth_detection "${CMAKE_CURRENT_SOURCE_DIR}/f1tenth_detection")
+
 install(
   DIRECTORY
   f1tenth_perception/build
@@ -49,10 +51,10 @@ install(PROGRAMS
 )
 
 install(PROGRAMS
-  ${PROJECT_NAME}/yolov7_objectDetection.py
-  ${PROJECT_NAME}/yoloDet.py
-  ${PROJECT_NAME}/object_coordinate.py    
-  ${PROJECT_NAME}/object_marker_array.py 
+  ${f1tenth_detection}/yolov7_objectDetection.py
+ ${f1tenth_detection}/yoloDet.py
+  ${f1tenth_detection}/object_coordinate.py    
+  ${f1tenth_detection}/object_marker_array.py 
  
   DESTINATION lib/${PROJECT_NAME}
 )
