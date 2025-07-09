@@ -22,10 +22,18 @@ find_package(rclpy REQUIRED)
 
 install(PROGRAMS
   # imu/safety_node.py
-  Detection/record.py
+  #Detection/record.py
 
+  ${PROJECT_NAME}/computer_vision_node.py
+  ${PROJECT_NAME}/drive.py
 
   DESTINATION lib/${PROJECT_NAME})
+
+
+install(DIRECTORY
+      ${PROJECT_NAME}/Detection
+      ${PROJECT_NAME}/config
+      DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
